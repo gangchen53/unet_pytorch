@@ -76,9 +76,6 @@ class Trainer(object):
         self.current_state_path = os.path.join(self.experimental_result_path, 'current_state.pth.tar')
         self.best_state_path = os.path.join(self.experimental_result_path, 'best_state.pth.tar')
 
-        self.val_visual_result = os.path.join(self.experimental_result_path, 'visualization', 'valset')
-        self.train_visual_result = os.path.join(self.experimental_result_path, 'visualization', 'trainset')
-        self.val_visual_result = os.path.join(self.experimental_result_path, 'visualization', 'valset')
         self.test_visual_result = os.path.join(self.experimental_result_path, 'visualization', 'testset')
 
         if not os.path.exists(self.experimental_result_path):
