@@ -11,7 +11,7 @@ The experimental results on the test set (with 379 images) are shown in the foll
 
 Some test set prediction results are shown below:
 
-![some_visualization_results](results/U-Net/Cross Entropy Loss/some_visualization_results.png)
+![some_visualization_results]('results/U-Net/Cross Entropy Loss/some_visualization_results.png')
 
 ### Thank you very much for pointing out if there is something wrong with the code !
 =======
