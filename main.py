@@ -21,7 +21,7 @@ batch_size = 16
 total_epoch = 120
 learning_rate = 0.001
 model_list = ['U-Net', ]
-loss_list = ['Cross Entropy Loss', ]
+loss_list = ['cross_entropy_loss', ]
 # --------------------------------------------------------------------------------
 
 
@@ -30,8 +30,8 @@ models_dict = {
     'U-Net': UNet(in_ch=3, out_ch=1),
 }
 loss_dict = {
-    'Cross Entropy Loss': BinaryCrossEntropy(),
-    'Dice Loss': BinaryDiceLoss(),
+    'cross_entropy_loss': BinaryCrossEntropy(),
+    'dice_loss': BinaryDiceLoss(),
 }
 
 trainset = ImageDataset(
