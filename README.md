@@ -26,4 +26,3 @@ The experimental results on the test set (with 379 images) are shown in the foll
 | Cross Entropy Loss |   0.30    | 0.73 |   0.88   |   0.89    |  0.89  |
 
 ### Thank you very much for pointing out if there is something wrong with the code !
->>>>>>> 3ea99b279c6c318f50aebe2ad2595f1404129285
